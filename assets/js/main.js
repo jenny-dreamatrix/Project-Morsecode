@@ -65,7 +65,7 @@ const encrypt = () => {
 
             if(letterIndex == 10){
                 outputEncrypted.innerHTML += ` / `;
-                outputExplanation.innerHTML += `<br>`
+                outputExplanation.innerHTML += `<p class="spacer"></p>`
             } else {
                 console.log({letterIndex});
                 console.log(morseAlphabet[letterIndex].morseCode);
