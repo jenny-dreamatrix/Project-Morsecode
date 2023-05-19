@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  margin: 0 0 2rem 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem 3rem 0 3rem;
+}
+
+form {
+  width: 80rem;
+}
+
+input {
+  height: 4rem;
+  width: 100%;
+  display: block;
+  margin: 0 0 2rem 0;
+}
